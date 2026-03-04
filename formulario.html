@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<h1>Formulario de creación de cuenta</h1>
+
+<form id="formCuenta">
+
+    <label>Nombre*:
+        <input type="text" id="nombre">
+    </label>
+
+    <label>Apellido 1*:
+        <input type="text" id="apellido1">
+    </label>
+
+    <label>Apellido 2:
+        <input type="text" id="apellido2">
+    </label>
+
+    <label>Fecha de nacimiento*:
+        <input type="date" id="fecha">
+    </label>
+
+    <label>Email*:
+        <input type="email" id="email">
+    </label>
+
+    <label>Contraseña*:
+        <input type="password" id="pass1">
+    </label>
+
+    <label>Repetir contraseña*:
+        <input type="password" id="pass2">
+    </label>
+
+    <button type="button" onclick="validarFormulario()">Crear cuenta</button>
+</form>
+
+<p id="errores" class="error"></p>
+
+<script src="validaciones.js"></script>
+
+</body>
+</html>
+

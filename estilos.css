@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Fondo semitransparente para que el texto se lea bien */
+
 body::before {
     content: "";
     position: fixed;
@@ -23,7 +23,7 @@ body::before {
     z-index: -1;
 }
 
-/* Título principal */
+
 h1 {
     text-align: center;
     margin-top: 30px;
@@ -32,7 +32,7 @@ h1 {
     text-shadow: 1px 1px 2px #fff;
 }
 
-/* Párrafos descriptivos */
+
 p {
     font-size: 18px;
     text-align: center;
@@ -67,7 +67,7 @@ a:hover {
     color: #2e7d32;
 }
 
-/* FORMULARIO */
+
 form {
     width: 350px;
     margin: 40px auto;
